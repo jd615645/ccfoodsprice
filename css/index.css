@@ -1,0 +1,20 @@
+html,
+body,
+main {
+  height: 100%;
+  width: 100%;
+}
+[v-cloak] {
+  display: none;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#bardcode {
+  text-align: center;
+  margin-bottom: 1rem;
+}
